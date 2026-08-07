@@ -29,3 +29,8 @@ bun.lock
 results/
 cosmos-export/
 .vercel/
+
+# Workspace task and Bun caches
+.turbo/
+.bun/
+bun-debug.log*

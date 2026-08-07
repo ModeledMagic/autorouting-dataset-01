@@ -24,7 +24,7 @@
     "cosmos": "cosmos",
     "build:site": "cosmos-export",
     "format": "biome format --write",
-    "lint": "biome lint",
+    "lint": "biome lint --error-on-warnings",
     "lint:fix": "biome lint --write",
     "check": "biome check",
     "check:write": "biome check --write --unsafe",
@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@tscircuit/capacity-autorouter": "^0.0.655",
-    "@tscircuit/checks": "0.0.132",
+    "@tscircuit/checks": "workspace:*",
     "@tscircuit/circuit-json-util": "^0.0.99",
-    "circuit-json": "^0.0.446",
+    "circuit-json": "workspace:*",
     "commander": "^12.1.0",
     "graphics-debug": "^0.0.94",
     "kleur": "^4.1.5"
@@ -56,7 +56,7 @@
     "@tsci/seveibar.push-button": "^0.1.1",
     "@tsci/seveibar.reg-5v-to-3v": "^0.0.1",
     "@tsci/seveibar.smd-usb-c": "^0.0.2",
-    "@tscircuit/core": "^ 0.0.1410",
+    "@tscircuit/core": "workspace:*",
     "@tscircuit/footprinter": "^0.0.357",
     "@tscircuit/footprints": "^0.0.21",
     "@tscircuit/math-utils": "^0.0.36",
@@ -68,7 +68,7 @@
     "react-cosmos": "^7.3.0",
     "react-cosmos-plugin-vite": "^7.3.0",
     "react-dom": "^19.2.6",
-    "tscircuit": "^0.0.2030",
+    "tscircuit": "workspace:*",
     "tsup": "^8.2.4",
     "vite": "^8.0.14"
   }
