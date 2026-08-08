@@ -4,7 +4,7 @@ import { JoystickThumb } from "lib/imports/JoystickThumb"
 import { PinHeader1x4 } from "lib/imports/PinHeader1x4"
 import { SM04B_SRSS_TB_LF__SN } from "lib/imports/SM04B_SRSS_TB_LF__SN"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * ATTiny85-based joystick/I2C breakout board with onboard pull-ups and status LED.

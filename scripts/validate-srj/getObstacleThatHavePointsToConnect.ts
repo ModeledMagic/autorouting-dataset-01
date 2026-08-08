@@ -1,5 +1,5 @@
 import { getBoundFromCenteredRect, isPointInsideBounds } from "lib/maths/box"
-import type { Obstacle, SimpleRouteJson } from "tscircuit"
+import type { Obstacle, SimpleRouteJson } from "@tscircuit/core"
 
 /** Returns obstacles containing at least one connection point. */
 export const getObstacleThatHavePointsToConnect = (

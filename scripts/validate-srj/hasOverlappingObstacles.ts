@@ -3,7 +3,7 @@ import {
   doBoundsOverlap,
   getBoundFromCenteredRect,
 } from "lib/maths/box"
-import type { Obstacle } from "tscircuit"
+import type { Obstacle } from "@tscircuit/core"
 import { obstacleShareLayers } from "./obstacleShareLayers"
 
 /** Finds overlapping obstacles on shared layers and reports the first conflict. */

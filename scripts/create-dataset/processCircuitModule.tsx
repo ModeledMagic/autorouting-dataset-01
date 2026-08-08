@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises"
 import path from "node:path"
 import { RootCircuit } from "@tscircuit/core"
-import { getSimpleRouteJsonFromCircuitJson } from "tscircuit"
+import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 
 /**
  * Loads a circuit module and saves its simple route JSON to the dataset.

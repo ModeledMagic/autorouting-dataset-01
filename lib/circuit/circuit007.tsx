@@ -1,5 +1,5 @@
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Button input with pull-up and LED output.

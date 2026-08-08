@@ -1,6 +1,6 @@
 import { SM04B_SRSS_TB_LF__SN } from "lib/imports/SM04B_SRSS_TB_LF__SN"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * I2C bus splitter with Qwiic connectors and header breakout.

@@ -1,5 +1,5 @@
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Simple voltage-divider with LED indicator and 1x3 header.

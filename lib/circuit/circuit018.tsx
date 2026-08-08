@@ -3,7 +3,7 @@
 import { ISM330DHCX } from "lib/imports/ISM330DHCX"
 import { MMC5983MA_QFN16 } from "lib/imports/MMC5983MA_QFN16"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 export const D1_FOOTPRINT = (
   <footprint>

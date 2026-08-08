@@ -1,6 +1,6 @@
 import { JoystickThumb } from "lib/imports/JoystickThumb"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Joystick thumbstick breakout with single 1x8 header.
