@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import { exit } from "node:process"
-import type { SimpleRouteJson } from "tscircuit"
+import type { SimpleRouteJson } from "@tscircuit/core"
 import { check } from "./check"
 import type { OverArgs } from "./types"
 

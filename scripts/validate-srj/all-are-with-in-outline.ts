@@ -3,7 +3,7 @@ import {
   doBoundsOverlap,
   getBoundFromCenteredRect,
 } from "lib/maths/box"
-import type { Obstacle } from "tscircuit"
+import type { Obstacle } from "@tscircuit/core"
 
 /** Verifies every obstacle overlaps with the board outline bounds. */
 export const allAreWithinOutline = (

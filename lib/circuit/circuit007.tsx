@@ -1,5 +1,5 @@
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Button input with pull-up and LED output.
@@ -71,7 +71,7 @@ export default () => (
       name="D1"
       color="red"
       footprint="0603"
-      pcbX={9.53}
+      pcbX={8.25}
       pcbY={-2.54}
       connections={{
         pin1: sel.R2.pin2,

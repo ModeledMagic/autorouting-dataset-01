@@ -1,5 +1,5 @@
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Dual RC low-pass filter with test header.

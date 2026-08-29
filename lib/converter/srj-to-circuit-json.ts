@@ -10,7 +10,7 @@ import type {
   PcbVia,
   SourceTrace,
 } from "circuit-json"
-import type { SimpleRouteJson, SimplifiedPcbTrace } from "tscircuit"
+import type { SimpleRouteJson, SimplifiedPcbTrace } from "@tscircuit/core"
 
 /**
  * Convert a SimpleRouteJson and its routed traces into Circuit JSON for DRC use.

@@ -1,7 +1,7 @@
 import { PinHeader1x3 } from "lib/imports/PinHeader1x3"
 import { VGF39NCHXT_B103 } from "lib/imports/VGF39NCHXT_B103"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * Low-side load switch with gate pull-down and status LED.

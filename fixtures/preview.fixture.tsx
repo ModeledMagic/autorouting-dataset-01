@@ -1,6 +1,6 @@
 import { type GraphicsObject, getSvgFromGraphicsObject } from "graphics-debug"
 import { useMemo, useState } from "react"
-import type { SimpleRouteJson } from "tscircuit"
+import type { SimpleRouteJson } from "@tscircuit/core"
 
 // @ts-expect-error
 const srjModules = import.meta.glob("../lib/dataset/*.simple-route.json", {

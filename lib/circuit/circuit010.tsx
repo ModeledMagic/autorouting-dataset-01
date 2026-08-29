@@ -1,7 +1,7 @@
 import { ACS37800 } from "lib/imports/ACS37800"
 import { SM04B_SRSS_TB_LF__SN } from "lib/imports/SM04B_SRSS_TB_LF__SN"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * ACS37800-based Qwiic power meter board with high-current pass-through holes.

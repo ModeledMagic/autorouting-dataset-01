@@ -4,7 +4,7 @@ import { JoystickThumb } from "lib/imports/JoystickThumb"
 import { PinHeader1x4 } from "lib/imports/PinHeader1x4"
 import { SM04B_SRSS_TB_LF__SN } from "lib/imports/SM04B_SRSS_TB_LF__SN"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * ATTiny85-based joystick/I2C breakout board with onboard pull-ups and status LED.
@@ -242,7 +242,7 @@ export default () => (
     <solderjumper
       name="JP7"
       bridgedPins={[["1", "2", "3"]]}
-      pcbX={-7.62}
+      pcbX={-6.35}
       pcbY={19.05}
       pcbRotation={270}
       layer="bottom"
@@ -431,7 +431,7 @@ export default () => (
     <JoystickThumb
       name="S1"
       pcbX={1.27}
-      pcbY={-13.97}
+      pcbY={-11.43}
       pcbRotation={0}
       schPinArrangement={{
         leftSide: {

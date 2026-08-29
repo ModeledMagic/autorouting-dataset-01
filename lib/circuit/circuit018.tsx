@@ -3,7 +3,7 @@
 import { ISM330DHCX } from "lib/imports/ISM330DHCX"
 import { MMC5983MA_QFN16 } from "lib/imports/MMC5983MA_QFN16"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 export const D1_FOOTPRINT = (
   <footprint>
@@ -323,11 +323,12 @@ export default () => (
           />
         </group>
 
-        <group pcbFlex pcbFlexDirection="row" pcbY={1.7} pcbFlexGap={0.3}>
+        <group pcbY={1.5}>
           <capacitor
             name="C2"
             capacitance="10uf"
             footprint="0603"
+            pcbX={-1}
             schRotation={90}
             pcbRotation={180}
             connections={{
@@ -339,6 +340,8 @@ export default () => (
             name="C1"
             capacitance="10uf"
             footprint="0603"
+            pcbX={1}
+            pcbY={-0.3}
             pcbRotation={270}
             schRotation={90}
             connections={{
@@ -499,7 +502,13 @@ export default () => (
             pin2: sel.net.V3_3,
           }}
         />
-        <group pcbFlex pcbFlexDirection="column" pcbY={-5} pcbX={0}>
+        <group
+          pcbFlex
+          pcbFlexDirection="column"
+          pcbFlexGap="0.6mm"
+          pcbY={-5}
+          pcbX={0}
+        >
           <resistor
             footprint="0603"
             name="R1"

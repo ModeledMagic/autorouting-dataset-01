@@ -1,7 +1,7 @@
 import { TC78H670FTG_EL } from "lib/imports/TC78H670FTG_EL"
 import { VGF39NCHXT_B103 } from "lib/imports/VGF39NCHXT_B103"
 import { shouldAutorouterRun } from "lib/shouldAutorouterRun"
-import { sel } from "tscircuit"
+import { sel } from "@tscircuit/core"
 
 /**
  * TC78H670FTG-based motor driver breakout.
